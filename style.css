@@ -17,26 +17,78 @@
 .bloc_page {
   display: flex;
   flex-direction: row;
+  border: 2px rgba(0, 0, 0, 0.1) solid;
 }
-
+/* ========================ABOUT // LEFT PANEL========================= */
 .about {
   display: flex;
   background-color: #feca07;
-  width: 32%;
+  flex-direction: column;
+  width: 33%;
 }
 
 #photo_perso {
-  background: url("images/Photo_mini.jpg");
-  width: 150px;
-  height: 150px;
+  background: url("images/Photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  border-radius: 80px;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  width: 216px;
+  height: 216px;
+
+  align-self: center;
+  margin-top: 65px;
+
+  border-radius: 108px;
+  border: 4px rgba(0, 0, 0, 0.1) solid;
 }
 
-#about h2 {
+.about h2 {
   text-align: center;
   text-transform: uppercase;
+  font-size: 20px;
+
+  padding: 14px;
+
+  background-color: #404040;
+  color: #feca07;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.about dt {
+  margin-left: 50px;
+}
+
+.about dd {
+  margin-left: 45px;
+  margin-bottom: 25px;
+}
+
+.about p {
+  text-align: justify;
+  margin: 45px;
+}
+
+.gray {
+  color: #404040;
+}
+
+#loisirs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fas {
+  margin-left: 5px;
+  margin-right: 5px;
+
+  width: 47px;
+
+  padding: 10px;
+
+  border: 3px solid #404040;
+  border-radius: 100px;
 }
 
 body {
@@ -44,6 +96,10 @@ body {
   font-size: 0.9em;
 }
 
+/* ====================================CONTENT // RIGHT PANEL=================================== */
+.right_panel {
+  width: 68%;
+}
 h1 {
   text-align: center;
   border: 2px black outset;
@@ -60,9 +116,9 @@ h1 {
 
 /****************************************MEDIA QUERIES***************************************************/
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1199px) {
 }
 @media all and (max-width: 991px) {
 }
-@media all and (max-width: 1199px) {
+@media all and (max-width: 768px) {
 }
