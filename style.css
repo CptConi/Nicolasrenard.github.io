@@ -11,10 +11,19 @@
   font-style: normal;
 }
 
+.bloc_page {
+  display: flex;
+}
+
+.about {
+  background-color: #feca07;
+  width: 32%;
+}
+
 body {
-  background: url("images/vignette.png");
-  background-color: #78909c;
+  background-color: #fff;
   font-size: 0.9em;
+  /* border: 1px solid black; */
 }
 
 * {
@@ -67,8 +76,8 @@ h4 {
 }
 
 #contenu {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
 }
 
 #liseret {
