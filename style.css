@@ -57,7 +57,7 @@
 }
 
 .about dt {
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 .about dd {
@@ -196,6 +196,7 @@ h2 {
 
 #recommandations {
   display: flex;
+  margin-bottom: 120px;
 }
 
 #bloc_recommandation {
