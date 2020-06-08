@@ -253,6 +253,10 @@ h2 {
     margin-left: 15px;
   }
 
+  .right_panel h2 {
+    font-size: 2em;
+  }
+
   .bloc_formation {
     flex-direction: column;
   }
@@ -263,5 +267,9 @@ h2 {
 
   .bloc_right {
     width: 100%;
+  }
+
+  .date p {
+    font-size: 1em;
   }
 }
