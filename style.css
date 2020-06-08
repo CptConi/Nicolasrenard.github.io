@@ -87,14 +87,11 @@
 }
 
 .fa-guitar {
-  padding: 8px 7px 0px 7px;
+  padding: 10px 7px 5px 7px;
 }
 
 .fa-gamepad {
-  padding-left: 6px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding: 10px 15px 10px 6px;
 }
 
 .fa-map-marked-alt {
