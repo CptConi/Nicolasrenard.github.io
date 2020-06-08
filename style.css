@@ -79,16 +79,32 @@
   justify-content: space-around;
 }
 
-.fas {
-  margin-left: 5px;
-  margin-right: 5px;
-
-  width: 47px;
+.about .fas {
+  width: 45px;
 
   padding: 10px;
+  margin-bottom: 25px;
 
   border: 3px solid #404040;
   border-radius: 100px;
+}
+
+.fa-gamepad {
+  padding-left: 5px;
+  padding-right: 13px;
+}
+
+.fa-map-marked-alt {
+  padding-right: 12px;
+  padding-top: 7px;
+}
+
+.fa-film {
+  padding-right: 7px;
+}
+
+.fa-hamburger {
+  padding-left: 13px;
 }
 
 body {
@@ -99,21 +115,99 @@ body {
 /* ====================================CONTENT // RIGHT PANEL=================================== */
 .right_panel {
   width: 68%;
+  margin-left: 65px;
+  margin-right: 45px;
 }
+
+.yellow {
+  color: #feca07;
+}
+
+.text {
+  color: #4a4a4a;
+}
+
 h1 {
-  text-align: center;
-  border: 2px black outset;
-  border-radius: 7px;
-  box-shadow: 0px 0px 20px black;
+  text-transform: uppercase;
+  font-size: 43px;
 
-  width: 40%;
-  min-width: 250px;
-
-  padding: 8px 0px;
-
-  margin: auto;
+  margin-top: 117px;
+  margin-bottom: 0;
 }
 
+header h2 {
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  text-transform: none;
+}
+
+#header_bottom {
+  border-top: 1px solid #feca07;
+  width: 80px;
+  margin-bottom: 130px;
+}
+
+.fa-graduation-cap,
+.fa-user-tie,
+.fa-pen {
+  padding-right: 35px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.underline {
+  border-top: 1px solid #feca07;
+  margin-bottom: 45px;
+}
+
+.bloc_formation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+
+.bloc_left {
+  display: flex;
+  flex-direction: row;
+}
+
+.date p {
+  margin: 0px;
+  padding-left: 15px;
+}
+
+.bloc_right {
+  width: 63%;
+}
+
+.bloc_right h3 {
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.bloc_right h4 {
+  font-style: italic;
+  font-weight: normal;
+
+  margin-bottom: 18px;
+}
+
+#recommandations {
+  display: flex;
+}
+
+#bloc_recommandation {
+  width: 50%;
+}
+
+.bloc_recommandation a {
+  text-decoration: none;
+}
 /****************************************MEDIA QUERIES***************************************************/
 
 @media all and (max-width: 1199px) {
