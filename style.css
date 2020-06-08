@@ -208,9 +208,63 @@ h2 {
 }
 /****************************************MEDIA QUERIES***************************************************/
 
-@media all and (max-width: 1199px) {
+/* @media all and (max-width: 1199px) {
 }
 @media all and (max-width: 991px) {
-}
+} */
 @media all and (max-width: 768px) {
+  .bloc_page {
+    flex-direction: column;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #loisirs {
+    padding-bottom: 20px;
+  }
+
+  header {
+    position: absolute;
+    top: 0px;
+    max-width: 58%;
+
+    margin-top: -10px;
+  }
+
+  h1 .yellow {
+    color: black;
+  }
+
+  #photo_perso {
+    align-self: flex-end;
+    margin-right: 5%;
+
+    width: 180px;
+    height: 180px;
+  }
+
+  #header_bottom {
+    border-top: 1px solid #404040;
+  }
+
+  .right_panel {
+    width: 95%;
+    margin-left: 15px;
+  }
+
+  .bloc_formation {
+    flex-direction: column;
+  }
+
+  .bloc_left {
+    margin-bottom: 20px;
+  }
+
+  .bloc_right {
+    width: 100%;
+  }
 }
