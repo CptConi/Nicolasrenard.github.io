@@ -82,29 +82,26 @@
 .about .fas {
   width: 45px;
 
-  padding: 10px;
-  margin-bottom: 25px;
-
-  border: 3px solid #404040;
+  border: 2px solid #404040;
   border-radius: 100px;
 }
 
+.fa-guitar {
+  padding: 8px 7px 0px 7px;
+}
+
 .fa-gamepad {
-  padding-left: 5px;
-  padding-right: 13px;
+  padding-left: 6px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .fa-map-marked-alt {
-  padding-right: 12px;
+  padding-left: 7px;
+  padding-right: 10px;
   padding-top: 7px;
-}
-
-.fa-film {
-  padding-right: 7px;
-}
-
-.fa-hamburger {
-  padding-left: 13px;
+  padding-bottom: 12px;
 }
 
 body {
