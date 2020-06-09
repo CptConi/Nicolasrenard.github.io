@@ -27,6 +27,11 @@
   width: 33%;
 }
 
+.about a {
+  text-decoration: none;
+  color: #404040;
+}
+
 #photo_perso {
   background: url("images/photo.png");
   background-repeat: no-repeat;
@@ -237,7 +242,7 @@ h2 {
   }
 
   h1 .yellow {
-    color: black;
+    color: white;
   }
 
   #photo_perso {
@@ -276,7 +281,10 @@ h2 {
   }
 
   .bloc_right {
-    width: 100%;
+    width: 97%;
+    padding-left: 30px;
+
+    border-left: 1px solid #feca07;
   }
 
   .date p {
