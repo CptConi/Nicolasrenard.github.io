@@ -17,12 +17,18 @@
 .bloc_page {
   display: flex;
   flex-direction: row;
+  margin: auto;
   border: 2px rgba(0, 0, 0, 0.1) solid;
+}
+
+body {
+  margin: 0;
 }
 /* ========================ABOUT // LEFT PANEL========================= */
 .about {
   display: flex;
   background-color: #feca07;
+  position: relative;
   flex-direction: column;
   width: 33%;
 }
@@ -79,9 +85,16 @@
   color: #404040;
 }
 
+.bloc__loisirs {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
 #loisirs {
   display: flex;
   justify-content: space-around;
+  bottom: 15px;
 }
 
 .about .fas {
@@ -122,7 +135,8 @@ body {
   color: #feca07;
 }
 
-.text {
+.text,
+.dev {
   color: #4a4a4a;
 }
 
@@ -158,6 +172,7 @@ h2 {
 }
 
 .underline {
+  width: 95%;
   border-top: 1px solid #feca07;
   margin-bottom: 45px;
 }
@@ -215,7 +230,10 @@ h2 {
 } */
 @media all and (max-width: 991px) {
   /* }  */
-  /* @media all and (max-width: 768px) { */
+  /*  */
+  body {
+    width: 100%;
+  }
   .bloc_page {
     flex-direction: column;
   }
@@ -228,6 +246,10 @@ h2 {
 
   #loisirs {
     padding-bottom: 20px;
+  }
+
+  .dev {
+    font-size: 1em;
   }
 
   header {
@@ -248,7 +270,6 @@ h2 {
 
   #photo_perso {
     align-self: flex-end;
-    margin-right: 5%;
 
     width: 180px;
     height: 180px;
@@ -282,10 +303,14 @@ h2 {
   }
 
   .bloc_right {
-    width: 97%;
+    width: 95%;
     padding-left: 30px;
 
     border-left: 1px solid #feca07;
+  }
+
+  p {
+    width: 85%;
   }
 
   .date p {
@@ -295,5 +320,66 @@ h2 {
   .bloc_recommandation {
     font-size: 2em;
     justify-content: space-between;
+  }
+
+  #recommandations {
+    flex-direction: column;
+  }
+
+  .bloc__loisirs {
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+  }
+
+  @media all and (max-width: 425px) {
+    body {
+      margin-right: 0;
+    }
+    header {
+      position: absolute;
+      top: 0;
+
+      width: 100%;
+    }
+
+    h1 {
+      margin-top: 40px;
+      font-size: 2em;
+    }
+
+    #photo_perso {
+      margin-top: 30px;
+    }
+
+    .dev {
+      margin-top: 50px;
+      font-size: 0.6em;
+    }
+
+    #about_aboutme p {
+      margin: auto;
+    }
+
+    .bloc_page {
+      width: 100%;
+    }
+
+    .right_panel {
+      margin-right: 0;
+      margin-left: 5px;
+    }
+
+    .content_title {
+      font-size: 2em;
+    }
+
+    #recommandations {
+      flex-direction: column;
+    }
+
+    #recommandations p {
+      font-size: 0.5em;
+    }
   }
 }
